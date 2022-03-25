@@ -1,0 +1,22 @@
+.walletCard {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  color: white;
+}
+
+.walletCard h1 {
+  padding-bottom: 20px;
+}
+
+.walletCard button {
+  width: 100px;
+  height: fit-content;
+}
+
+.accountDisplay {
+  padding: 20px;
+}
