@@ -10,7 +10,8 @@ const Home = ({
 }) => {
   return (
     <div className="walletCard">
-      <h1>Connection to MetaMask</h1>
+      <h1>dApp Demo</h1>
+      <h2>Connect MetaMask</h2>
       <button onClick={connectWalletHandler}>{connectButtonText}</button>
       <div className="accountDisplay">
         <h3>Address: {defaultAccount}</h3>
