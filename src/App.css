@@ -3,9 +3,10 @@
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 body {
-  background-color: #298b92;
+  background-image: url(https://freellustrustrations.s3.us-east-2.amazonaws.com/free-images/freeimg_47841037freejpg850.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .app {
@@ -16,8 +17,23 @@ body {
   color: white;
 }
 
-.walletPage .profilePage a {
-  margin-top: 20px;
+.walletPage {
   text-decoration: none;
   color: white;
+}
+
+.walletPage h4 {
+  margin-bottom: 20px;
+}
+
+.walletPage a {
+  padding: 12px;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+}
+
+.walletPage a:hover {
+  transition: 0.3s;
+  background-color: rgb(228, 224, 224);
 }

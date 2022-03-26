@@ -1,3 +1,74 @@
 .tokenPage h2 {
   margin-bottom: 20px;
 }
+
+.tokenPage__account {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  margin: auto;
+  max-width: 600px;
+  background-color: rgba(255, 255, 255, 0.904);
+  color: black;
+  border-radius: 5px;
+}
+
+.token__options {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 900px;
+}
+
+.token {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.904);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.token__desc {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.token__name h4 {
+  margin-left: 10px;
+  margin-right: auto;
+}
+
+.token__price h4 {
+  margin-left: 40px;
+  margin-right: auto;
+}
+.token-margin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+}
+
+.token__img img {
+  width: 30px;
+  height: 30px;
+}
+
+.token__buy button {
+  background-color: rgb(97, 160, 243);
+  border: none;
+  color: white;
+  border-radius: 50px;
+  width: 100px;
+  height: 40px;
+}
+
+.token__buy button:hover {
+  transition: 0.5s;
+  background-color: rgb(100, 100, 204);
+}

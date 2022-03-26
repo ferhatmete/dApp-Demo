@@ -35,10 +35,8 @@ const App = () => {
 
         setErrorMessage(
           <div className="walletPage">
-            <h4>
-              You don't have enough balance to buy tokens! Go to Token Page
-            </h4>
-            <Link to="/walletAddress">Token Page</Link>
+            <h4>You don't have enough balance to buy! Go to Crypto Page</h4>
+            <Link to="/walletAddress">Crypto Page</Link>
           </div>
         );
       } else {
